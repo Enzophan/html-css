@@ -775,7 +775,7 @@
         </div>
         <div class="row-contents">
             <div class="contents">
-                
+
             </div>
         </div>
     </div>
@@ -1460,7 +1460,11 @@
             return params;
         };
         var tabDefault = getParams(window.location.href);
-        document.getElementById(String(tabDefault.tab)).click();
+        if (tabDefault.tab) {
+            document.getElementById(String(tabDefault.tab)).click();
+        } else {
+            document.getElementById(String("customers")).click();
+        }
     </script>
 
 </body>
