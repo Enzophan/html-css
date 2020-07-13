@@ -36,7 +36,7 @@ body {
 }
 
 .container .card .face.face1 {
-    background: #333;
+    background: #7bedce;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ body {
 
 .container .card .face.face1 h3 {
     margin: 10px 0 0;
-    color: #ffff;
+    color: #1e1e1e;
     text-align: center;
     font-size: 1.5em;
 }
