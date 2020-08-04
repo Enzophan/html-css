@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu img {
+    height: 35px;
+    margin: 20px 50px;
+    cursor: pointer;
+}
+
+.menu ul {
+    display: inline-flex;
+    color: #ffffff;
+    list-style: none;
+    right: 60px;
+    top: 15px;
+    position: absolute;
+}
+
+.menu ul li {
+    margin: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.menu ul li .fa {
+    margin-right: 13px;
+    font-size: 20px;
+}
+
+.banner-text {
+    width: 80%;
+    color: #ffffff;
+    margin: 16% auto;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+}
+
+.banner-text p {
+    font-size: 18px;
+    margin: 40px 0 50px;
+}
+
+.banner-text ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.banner-text ul li {
+    margin-right: 25px;
+    position: relative;
+}
+
+.banner-text ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #dfdfdf;
+    display: block;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    z-index: 1;
+}
+
+.banner-text ul li a:hover {
+    border: 2px solid red;
+    transition: 0.3s;
+}
+
+.banner-text ul li span {
+    display: block;
+    width: 0;
+    height: 100%;
+    background: red;
+    top: 0;
+    position: absolute;
+    transition: 0.3s ;
+    z-index: -1;
+}
+
+.banner-text ul li:hover span {
+    width: 100%;
+}
