@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    all:initial;
+    color: red;
+    font-size: 14px; 
+}
+
+.example.Text1 span, .example.Text1 {
+    writing-mode: horizontal-tb;
+    -webkit-writing-mode: horizontal-tb;
+    -ms-writing-mode: horizontal-tb;
+}
+  
+.example.Text2 span, .example.Text2 {
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+}
+  
+.example.Text3 span, .example.Text3 {
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+}
+  
+.example.Text4 span, .example.Text4 {
+    writing-mode: sideways-lr;
+    -webkit-writing-mode: sideways-lr;
+    -ms-writing-mode: sideways-lr;
+}
+
+.example.Text5 span, .example.Text5 {
+    writing-mode: sideways-rl;
+    -webkit-writing-mode: sideways-rl;
+    -ms-writing-mode: sideways-rl;
+}
+
+.background-clip p {
+    border: .8em darkviolet;
+    border-style: dotted double;
+    margin: 1em 0;
+    padding: 1.4em;
+    background: linear-gradient(60deg, red, yellow, red, yellow, red);
+    font: 900 1.2em sans-serif;
+    text-decoration: underline;
+}
+  
+.background-clip .border-box { background-clip: border-box; }
+.background-clip .padding-box { background-clip: padding-box; }
+.background-clip .content-box { background-clip: content-box; }
+.background-clip .text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,.2);
+}
+
+.user-select .unselectable {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+.user-select .all {
+    -moz-user-select: all;
+    -webkit-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+}
+
+
+.white-space {
+    width:100px;   
+}
+.white-space p{
+    background:red;
+    font-size:2rem;
+}
+.white-space .first{
+    white-space:nowrap;
+}
+.white-space .second{
+    white-space:pre;
+}
+.white-space .third{
+    white-space:pre-line;
+}
+.white-space .fourth{
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+
+.border-image h1{
+    border: 10px solid transparent;
+    padding: 15px;
+    /* border-image-source: url('/media/examples/border-diamonds.png'); */
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+}
