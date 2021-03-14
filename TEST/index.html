@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div class="media">
+            <h2>No object-fit</h2>
+            <div class="none object">
+                <img src="paris.jpg" alt="Paris" style="width: 350px; height: auto">
+            </div>
+        </div>
+
+        <div class="media">
+            <h2>object-fit: cover</h2>
+            <div class="cover object">
+                <img class="contain" src="paris.jpg" alt="Paris" style="width: 350px; height: 350px">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2>object-fit: contain</h2>
+        <div class="media-contain">
+            <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+        </div>
+
+        <div class="media-contain">
+            <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+        </div>
+    </div>
+
+    <div>
+        <h2>object-position</h2>
+        <div class="media-position">
+            <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+        </div>
+
+        <div class="media-position">
+            <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+        </div>
+    </div>
+
+</body>
+
+</html>

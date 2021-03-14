@@ -1,0 +1,49 @@
+.media {
+	display: inline-block;
+    margin: 30px;
+}
+
+.object {
+	background: #E6E6FA;
+    border: 4px double green;
+    width: 350px;
+    height: 350px;
+}
+
+img {display: block;}
+
+.cover {
+    object-fit: cover;
+}
+
+
+.media-contain {
+	background: #E6E6FA;
+    border: 4px double green;
+    margin: 30px;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+}
+
+.media-contain img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.media-position {
+	background: #E6E6FA;
+    border: 4px double green;
+    margin: 30px;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+}
+
+.media-position img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: 5px 10%;
+}
